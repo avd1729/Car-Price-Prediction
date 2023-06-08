@@ -1,22 +1,22 @@
 # Car-Price-Prediction
 
-## XGBoost Classifier
+## XGBoost Regressor
 
-The XGBoost (Extreme Gradient Boosting) classifier is an advanced machine learning algorithm that has gained significant popularity in various data science and machine learning competitions. It is an extension of the gradient boosting framework that focuses on improving the performance and efficiency of gradient boosting algorithms.
+The XGBoost (Extreme Gradient Boosting) regressor is an advanced machine learning algorithm that has gained significant popularity in various data science and machine learning competitions. It is an extension of the gradient boosting framework that focuses on improving the performance and efficiency of gradient boosting algorithms for regression problems.
 
-### Gradient Boosting
+### Gradient Boosting for Regression
 
-Before delving into XGBoost, it's important to understand the concept of gradient boosting. Gradient boosting is a powerful ensemble method that combines weak learners, typically decision trees, into a strong predictive model. The idea behind gradient boosting is to iteratively add new models to correct the mistakes made by previous models.
+Before diving into XGBoost, it's important to understand the concept of gradient boosting for regression. Gradient boosting is a powerful ensemble method that combines weak learners, typically decision trees, into a strong predictive model. The idea behind gradient boosting for regression is to iteratively add new models to correct the errors made by previous models.
 
-In gradient boosting, the models are trained sequentially, and each subsequent model tries to minimize the errors of the previous model. This is achieved by fitting the new model to the residual errors (the differences between the actual values and the predictions made by the previous models).
+In gradient boosting for regression, the models are trained sequentially, and each subsequent model tries to minimize the errors of the previous models. This is achieved by fitting the new model to the residual errors (the differences between the actual values and the predictions made by the previous models).
 
 ### XGBoost: Key Concepts
 
-XGBoost enhances the traditional gradient boosting framework with several key concepts and algorithmic improvements, making it a highly efficient and effective classifier. Here are some of the important aspects of XGBoost:
+XGBoost enhances the traditional gradient boosting framework with several key concepts and algorithmic improvements, making it a highly efficient and effective regressor. Here are some of the important aspects of XGBoost:
 
 1. **Regularization**: XGBoost integrates both L1 and L2 regularization techniques into the model training process. Regularization helps to control overfitting by adding penalty terms to the loss function, discouraging overly complex models.
 
-2. **Gradient-based Optimization**: XGBoost employs a novel gradient-based optimization technique called "approximate greedy algorithm." It explores possible tree structures and makes efficient splits by evaluating the information gain using gradients, resulting in a faster and more accurate optimization process.
+2. **Gradient-based Optimization**: XGBoost employs a novel gradient-based optimization technique called the "approximate greedy algorithm." It explores possible tree structures and makes efficient splits by evaluating the information gain using gradients, resulting in a faster and more accurate optimization process.
 
 3. **Tree Pruning**: XGBoost incorporates a process known as "tree pruning" to eliminate branches that do not contribute significantly to improving the model's performance. Pruning helps to reduce model complexity, prevent overfitting, and improve generalization.
 
@@ -24,9 +24,9 @@ XGBoost enhances the traditional gradient boosting framework with several key co
 
 5. **Parallel Processing**: XGBoost supports parallel processing, making use of multiple CPU cores during training. This parallelization significantly reduces the training time, especially for datasets with a large number of samples and features.
 
-### Advantages of XGBoost Classifier
+### Advantages of XGBoost Regressor
 
-The XGBoost classifier offers several advantages, contributing to its popularity among data scientists and practitioners:
+The XGBoost regressor offers several advantages, contributing to its popularity among data scientists and practitioners:
 
 1. **High Performance**: XGBoost is known for its excellent predictive performance. It often outperforms other traditional machine learning algorithms and has been successful in many real-world applications and competitions.
 
@@ -38,6 +38,6 @@ The XGBoost classifier offers several advantages, contributing to its popularity
 
 5. **Interpretability**: While decision trees in XGBoost can become complex, the model provides valuable insights into feature importance. It enables analysts to understand the contribution of each feature in the prediction, aiding in feature selection and model interpretation.
 
-In summary, the XGBoost classifier is a powerful machine learning algorithm that builds upon the gradient boosting framework. It offers various enhancements in optimization, regularization, and pruning, resulting in high performance and efficiency. With its flexibility and interpretability, XGBoost has
+In summary, the XGBoost regressor is a powerful machine learning algorithm that builds upon the gradient boosting framework. It offers various enhancements in optimization, regularization, and
 
- become a popular choice for a wide range of predictive modeling tasks.
+ pruning, resulting in high performance and efficiency. With its flexibility and interpretability, XGBoost has become a popular choice for regression problems, providing accurate predictions and valuable insights.
